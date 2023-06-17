@@ -23,14 +23,14 @@ def main():
     
 
     model = joblib.load('model_jobliob_gr')
-    p1 = st.slider("Enter Your Age",18,100)
+    p1 = st.slider("Enter Your Age",18,64)
     p1 = str(p1)
     p2=st.selectbox("Sex",("male","female"))
 
 
-    p3 =st.slider("Enter Your BMI Value")
+    p3 =st.slider("Enter Your BMI Value",16,54)
     p3 = str(p3)
-    p4 = st.slider("Enter Number of Children",0,4) 
+    p4 = st.slider("Enter Number of Children",0,5) 
     p4 = str(p4)
     
     p5=st.selectbox("Smoker",("yes","no"))
