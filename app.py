@@ -28,7 +28,7 @@ def main():
     p2=st.selectbox("Sex",("male","female"))
 
 
-    p3 =st.slider("Enter Your BMI Value",12,54)
+    p3 =st.slider("Enter Your BMI Value",12,60)
     p3 = str(p3)
     p4 = st.slider("Enter Number of Children",0,5) 
     p4 = str(p4)
